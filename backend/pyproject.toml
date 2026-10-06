@@ -5,7 +5,7 @@ description = "Research WebApp API: experiment dashboard"
 requires-python = ">=3.11"
 dependencies = [
   "fastapi>=0.115",
-  "uvicorn[standard]>=0.30",
+  "uvicorn[standard]>=0.54.0",
   "sqlalchemy>=2",
   "psycopg[binary]>=3",
   "alembic>=1.13",
