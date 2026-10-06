@@ -1,0 +1,7 @@
+example.kz {
+  reverse_proxy frontend:3000
+}
+
+api.example.kz {
+  reverse_proxy backend:8000
+}
